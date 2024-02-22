@@ -1,4 +1,12 @@
-document.getElementById('main').remove();
+// document.getElementById('main').remove();
+
+// const newHeader = document.createElement('h1')
+// newHeader.id = 'victory'
+// newHeader.innerHTML = "YOUR-NAME is the champion"
+
+let main = document.getElementById('main')
+main = document.querySelector('#main')
+main.remove()
 
 const newHeader = document.createElement('h1')
 newHeader.id = 'victory'
